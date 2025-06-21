@@ -80,5 +80,5 @@ def capture_text():
 
 
 if __name__ == '_main_':
-    PORT = int(os.environ.get("PORT", 8080))      # Railway/Render default
+    PORT = int(os.environ.get("PORT", 5000))      # Railway/Render default
     app.run(host='0.0.0.0', port=PORT)
